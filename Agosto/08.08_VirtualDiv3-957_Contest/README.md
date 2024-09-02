@@ -1,0 +1,1 @@
+Esse contest é um contest individual, porém foi realizado em grupo em conjunto com os amigos Vinicuis Lira e Octavio Carneiro. (Foi um dos primeiros contest por isso optamos em realizar um em grupo para ver nosso desempenho em conjunto para a seletiva USP)

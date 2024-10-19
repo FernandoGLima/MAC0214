@@ -1,71 +1,46 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 #define ll long long
 
+#define vll vector<ll>
+#define pb push_back
+#define bc back
+
+#define all(x) x.begin(),x.end()
+
+#define NO {cout << "NO" << "\n";}
+#define YES {cout << "YES" << "\n";}
+
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t, ehbom;
-
-    ll n, sum, acimasum, input, qnts;
-
+    ll t, n, soma, good, ant;
+    vll v;
     cin >> t;
 
     while(t!=0){
         cin >> n;
-
-        sum=qnts=ehbom=acimasum=0;
-
-        cin >> input;
-        if(input==0){
-            qnts++;
-        }
-        sum=sum+input;
-        for(int i=1; i<n; i++){
-            cin >> input;
-            if(input==0 && ehbom==1){
-                qnts++;
+        
+        ll in;
+        ant=soma=good=0;
+        for(ll i=0; i<n; i++){
+            cin >> in;
+            v.pb(in);
+        }   
+        for(ll i=0; i<n; i++){
+            soma+=v[i];
+            ant=max(ant, v[i]);
+            if(soma-ant==ant){
+                good++;
             }
-            if(input>sum){
-                sum=sum+input;
-                if(acimasum!=0 && acimasum==(sum-acimasum)){
-                    qnts++;
-                    ehbom=1;
-                }
-                else{
-                    ehbom=0;
-                }
-            
-                acimasum=input;
-            }
-            else{
-                if(input==sum){
-                    qnts++;
-                    ehbom=1;
-                    sum=sum+input;
-                    if(acimasum==(sum-acimasum) && acimasum!=input){
-                        qnts++;
-                        acimasum=0;
-                    }
-                }
-                else{
-                    ehbom=0;
-                    sum=sum+input;
-                    if(acimasum==(sum-acimasum)){
-                        qnts++;
-                        ehbom=1;
-                        acimasum=0;
-                    }
-                }
-            }
-        }
-
-        cout << qnts << "\n";
-
+        }     
+        v.clear();
+        
+        cout << good << "\n";
+        
         t--;
     }
 

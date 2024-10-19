@@ -1,39 +1,102 @@
 #include <bits/stdc++.h>
 
-#define MAC0214 std::ios_base::sync_with_stdio(false);
-#define coxa std::cin.tie(NULL);
-#define int long long
 using namespace std;
-bool capslock = false;
 
-void toggleCaps(){
-    if(capslock) capslock = false;
-    else capslock = true;
-}
+#define ll long long
 
-void solve(){
-    int n; cin >> n;
-    string s, key; getline(cin >> ws, s);
-    string ans = "";
-    int m; cin >> m;
-    for(int i = 0; i < m; i++){
-        cin >> key;
-        if(key == "CapsLock") toggleCaps();
-        else if(key == "Space") ans.append(" ");
-        else if(key == "Backspace"){
-            if(ans.size() > 0) ans.pop_back();
+#define vetor vector<ll>
+#define pb push_back
+#define bc back
+
+#define all(x) x.begin(),x.end()
+
+#define NO {cout << "NO" << "\n";}
+#define YES {cout << "YES" << "\n";}
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    ll t, l, r, x,a , b;
+    cin >> t;
+
+    while(t!=0){
+        cin >> l >> r >> x;
+        cin >> a >> b;
+
+        if(a==b){
+            cout << 0 << "\n";
         }
         else{
-            if(capslock) key[0]-=32;
-            ans.append(key);
+            if(r-l<x){
+                cout << -1 << "\n";
+            }
+            else{
+                if(b>a){
+                    if(b-a>=x){
+                        cout << 1 << "\n";
+                    }
+                    else if(a-l>=x){
+                        if(b-l>=x){
+                            cout << 2 << "\n";
+                        }
+                        else if(r-b>=x){
+                            cout << 3 << "\n";
+                        }
+                        else{
+                            cout << -1 << "\n";
+                        }
+                    }
+                    else if(r-a>=x){
+                        if(r-b>=x){
+                            cout << 2 << "\n";
+                        }
+                        else if(b-l>=x){
+                            cout << 3 << "\n";
+                        }
+                        else{
+                            cout << -1 << "\n";
+                        }
+                    }
+                    else{
+                        cout << -1 << "\n";
+                    }
+                }
+                else{
+                    if(a-b>=x){
+                        cout << 1 << "\n";
+                    }
+                    else if(b-l>=x){
+                        if(a-l>=x){
+                            cout << 2 << "\n";
+                        }
+                        else if(r-a>=x){
+                            cout << 3 << "\n";
+                        }
+                        else{
+                            cout << -1 << "\n";
+                        }
+                    }
+                    else if(r-b>=x){
+                        if(r-a>=x){
+                            cout << 2 << "\n";
+                        }
+                        else if(a-l>=x){
+                            cout << 3 << "\n";
+                        }
+                        else{
+                            cout << -1 << "\n";
+                        }
+                    }
+                    else{
+                        cout << -1 << "\n";
+                    }
+                }
+            }
         }
-    }    
-    if(ans == s) cout << "Correct\n";
-    else cout << "Incorrect\n";
-}
+        
+        t--;
+    }
 
-signed main(){
-    MAC0214 coxa
-    solve();
     return 0;
 }

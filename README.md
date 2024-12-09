@@ -81,8 +81,8 @@ Simulei o contest [Codeforces Round 952 (Div. 4)](. Com certeza meu pior contest
 
 Upsolvei as questões:
 
-C
-D - (Implementação básica, daria para ter passado no contest).
+C <br />
+D - (Implementação básica, daria para ter passado no contest). <br />
 E - (Problema interessante de TN).
 
 Códigos aqui:
@@ -172,8 +172,8 @@ Simulei o contest [Codeforces Round 886 (Div. 4)](https://codeforces.com/contest
 
 Upsolvei as questões:
 
-E - (Estava com a ideia errada, mas depois de ler o editorial consegue resolver).
-F - (Li o editorial e provavelmente segunda ou terceira vez que intero pelo map, estava tomando TL antes).
+E - (Estava com a ideia errada, mas depois de ler o editorial consegue resolver). <br />
+F - (Li o editorial e provavelmente segunda ou terceira vez que intero pelo map, estava tomando TL antes). <br />
 G - (Meu amigo Vinicius deu uma dica que foi crucial para resolver esta questão, ele me disse que pegou essa dica lendo o editorial).
 
 Códigos aqui:
@@ -185,7 +185,7 @@ Simulei o contest [GCPC 2023](https://codeforces.com/gym/104466) em grupo com me
 
 Upsolvamos as questões:
 
-C - (Pd)
+C - (Pd) <br />
 M - (Maneira errada com vários ifs e a correta)
 
 Códigos aqui:
@@ -228,7 +228,7 @@ Códigos aqui:
 Simulei o contest [Codeforces Round 918 (Div. 4)](https://codeforces.com/contest/1915). Possui um melhor desempenho nesse contest, passando até a questão D bem rapidamente (quase 30 min de prova), porém na questão E não consegui desenvolver as ideias corretas e na questão F tive a ideia correta, porém não conhecia a estrutura de dados "orderd set" e era necessário isto para passar se da TL.
 Upsolvei as questões:
 
-E - (Soma acumulada, li o editorial para entender melhor).
+E - (Soma acumulada, li o editorial para entender melhor). <br />
 F - (Precisava saber de orderd set).
 
 Códigos aqui:
@@ -248,7 +248,7 @@ Simulei o contest [Codeforces Round 871 (Div. 4)](https://codeforces.com/contest
 
 Upsolvei as questões:
 
-D - (Com ajuda dos meus amigos, eu estava fazendo a recursão de uma maneira bem ineficiente).
+D - (Com ajuda dos meus amigos, eu estava fazendo a recursão de uma maneira bem ineficiente). <br />
 F - (Era uma questão relativamente simples de grafos).
 
 Códigos aqui:
@@ -260,7 +260,7 @@ Simulei o contest [Codeforces Round 790 (Div. 4)](https://codeforces.com/contest
 
 Upsolvei as questões:
 
-G - (Uma Dfs)
+G - (Uma Dfs) <br />
 H1 - (Era quadrático e bem simples)
 
 Códigos aqui:
@@ -272,7 +272,7 @@ Simulei o contest [Codeforces Round 898 (Div. 4)](https://codeforces.com/contest
 
 Upsolvei as questões:
 
-F - (Tive um pouco de dificuldade, mas saiu).
+F - (Tive um pouco de dificuldade, mas saiu). <br />
 H - (Dfs).
 
 Códigos aqui:
@@ -304,7 +304,7 @@ Fiz o contest [Codeforces Round 991 (Div. 3)](https://codeforces.com/contest/205
 
 Upsolvei as questões:
 
-C - (Brute force mais inteligente).
+C - (Brute force mais inteligente). <br />
 
 Códigos aqui:
 [Contest](https://github.com/FernandoGLima/MAC0214/tree/main/Dezembro/05.12_Div3-991_Contest)
@@ -315,15 +315,15 @@ Simulei o contest [Samara Regional 2017](https://codeforces.com/gym/101341) em g
 
 Upsolvamos as questões
 
-C
-J
+C <br />
+J <br />
 
 Códigos aqui:
 [Contest](https://github.com/FernandoGLima/MAC0214/tree/main/Dezembro/05.12_Samara_Regional-2017_Group_Contest)
 [Upsolve](https://github.com/FernandoGLima/MAC0214/tree/main/Dezembro/Samara_Regional_Upsolving)
 
-Total horas = 109h + 19h de estudo individual.
-Contest: 83h.
-Upsolving: 26h.
-Perfil
-Codeforces: [Ferlima](https://codeforces.com/profile/FerLima).
+Total horas = 109h + 19h de estudo individual. <br />
+Contest: 83h. <br />
+Upsolving: 26h. <br />
+Perfil <br />
+Codeforces: [Ferlima](https://codeforces.com/profile/FerLima). <br />
